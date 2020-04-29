@@ -29,6 +29,10 @@ We use (pip-tools)[https://github.com/jazzband/pip-tools] to manage packaged. Th
 ```bash
 venv/bin/python -m piptools compile
 ```
+then make sure you redo the pip install:
+```bash
+venv/bin/pip install -r requirements.txt
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
