@@ -1,0 +1,4 @@
+# requirements.in
+python-docx
+tinydb
+dacite
