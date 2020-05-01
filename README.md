@@ -21,6 +21,14 @@ Now you're ready to work!
 Make sure that the data in `resume/resume.json` is updated to reflect your own work.
 
 ```python
+venv/bin/python main.py
+```
+
+### Running tests
+
+We use pytest to manage all the tests for this project. They can be run by:
+```bash
+venv/bin/python -m pytest tests
 ```
 
 ### Adding new packages
@@ -29,6 +37,7 @@ We use (pip-tools)[https://github.com/jazzband/pip-tools] to manage packaged. Th
 ```bash
 venv/bin/python -m piptools compile
 ```
+
 then make sure you redo the pip install:
 ```bash
 venv/bin/pip install -r requirements.txt

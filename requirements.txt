@@ -4,7 +4,23 @@
 #
 #    pip-compile
 #
+attrs==19.3.0             # via pytest
+colander==1.4.0           # via jsonresume-validator
 dacite==1.4.0             # via -r requirements.in
+importlib-metadata==1.6.0  # via pluggy, pytest
+iso8601==0.1.12           # via colander
+jsonresume-validator==0.1.5  # via -r requirements.in
 lxml==4.5.0               # via python-docx
+more-itertools==8.2.0     # via pytest
+packaging==20.3           # via pytest
+pluggy==0.13.1            # via pytest
+py==1.8.1                 # via pytest
+pycountry==17.9.23        # via jsonresume-validator
+pyparsing==2.4.7          # via packaging
+pytest==5.4.1             # via -r requirements.in
 python-docx==0.8.10       # via -r requirements.in
+six==1.14.0               # via packaging
 tinydb==3.15.2            # via -r requirements.in
+translationstring==1.3    # via colander
+wcwidth==0.1.9            # via pytest
+zipp==3.1.0               # via importlib-metadata
