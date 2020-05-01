@@ -1,0 +1,180 @@
+{
+  "basics": {
+    "name": "Eric Jalbert",
+    "label": "Data Engineer",
+    "email": "ericmjalbert@gmail.com",
+    "phone": "226-203-0711",
+    "website": "ericmjalbert.com",
+    "summary": "Standing at the intersection of data engineering, analytics, and statistics, I use my skills to resolve problems with a solution that is tailored for each situation. I am adept at getting a minimal product shipped or optimizing to perfection.",
+    "location": {
+      "city": "Markham",
+      "countryCode": "Canada",
+      "region": "Ontario"
+    },
+
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ericmjalbert",
+        "url": "github.com/ericmjalbert"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "ericmjalbert",
+        "url": "linkedin.com/in/ericmjalbert"
+      }
+    ]
+  },
+
+  "work": [
+    {
+      "company": "Ada Support",
+      "position": "Data Engineer",
+      "website": "https://ada.support",
+      "startDate": "June 2019",
+      "endDate": "April 2020",
+      "summary": ".",
+      "highlights": [
+        "Optimized ETL and Analytics Dashboarding layer to maintain a 99.9% data processing SLO.",
+        "Created streaming ETL to process over 1k/records per second.",
+        "Separated resource consumptions for specific services to reduce situational CPU peaks.",
+        "Setup and managed Looker to enable data driven decisions.",
+        "Grew into leading a team of 3 Data Engineers."
+      ]
+    },
+
+    {
+      "company": "RubyLife",
+      "position": "Data Engineer",
+      "website": "https://rubylife.com",
+      "startDate": "May 2018",
+      "endDate": "June 2019",
+      "summary": ".",
+      "highlights": [
+        "Architectured and implemented a scalable ETL that processed over 10GB of user data per day.",
+        "Developed interactive web app to allow for efficient A/B test analysis.",
+        "Fostered a culture around live documentation to improve communications between teams.",
+        "Created payload validation system to reduce QA effort.",
+        "Setup and optimized Spark server for Data Scientist usage."
+      ]
+    },
+
+    {
+      "company": "theScore, Inc.",
+      "position": "Sr. Data Analyst",
+      "website": "https://www.thescore.com/",
+      "startDate": "Dec 2017",
+      "endDate": "May 2018",
+      "summary": ".",
+      "highlights": [
+        "Increased analysis confidence and reproducibility by developing a custom postgreSQL integration testing framework inheriting functionality from Python unittest",
+        "Simplified user-based analytics by creating a framework to map IDs across multiple sources",
+        "Reduced Analyst workload by automating the generation of executive-level reports and A/B test documentations",
+        "Used machine learning to remove seasonality from KPIs",
+        "Enabled deep understanding of user reviews by writing an ETL to get reviews from app store and augment them with sentiment analysis and TF-IDF data."
+      ]
+    },
+
+    {
+      "company": "theScore, Inc.",
+      "position": "Data Engineer",
+      "website": "https://www.thescore.com/",
+      "startDate": "Jan 2017",
+      "endDate": "Dec 2017",
+      "summary": ".",
+      "highlights": [
+        "Simplified ETL scheduling by replacing complex CRON tasks with Apache Airflow.",
+        "Reduced inefficiencies in daily ETL runtime by building a system to maintain data consistency between different databases.",
+        "Improved user retention for theScore app by writing a team recommendation model based on GIS data.",
+        "Optimized AWS Redshift performance by automating table VACUUM operations and by managing disk usage on slices.",
+        "Created article categorization model using random forest.",
+        "Coordinated analytics tracking framework transition.",
+        "Practiced DRY principals by teaching colleagues how to use git and create modular work.",
+        "Modernized tech stack by porting Python 2.7 to 3.6."
+      ]
+    },
+
+    {
+      "company": "theScore, Inc.",
+      "position": "Data Analyst",
+      "website": "https://www.thescore.com/",
+      "startDate": "Feb 2016",
+      "endDate": "Jan 2017",
+      "summary": ".",
+      "highlights": [
+        "Helped VP of esports understand user behaviour by creating analytics reports using R markdown and Plotly.",
+        "Prioritized eSports roadmap features by assessing the impact of potential features using time-series predictions.",
+        "Ingested Twitter and twitch.tv data to train prediction models.",
+        "Built A/B testing process for theScore, Inc. allowing for direct analysis of changing different aspects of applications.",
+        "Raised analytical knowledge by presenting theoretical machine learning concepts and how it could be applied for business gains."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "University of Guelph",
+      "area": "Applied Mathematics",
+      "studyType": "MSc.",
+      "startDate": "Jan 2014",
+      "endDate": "Jan 2016",
+      "highlights": [
+        "View Thesis here: http://atrium.lib.uoguelph.ca/xmlui/handle/10214/9448",
+        "View Published work: https://www.mendeley.com/authors/55932631800/"
+      ]
+    },
+    {
+      "institution": "University of Guelph",
+      "area": "Applied Mathematics",
+      "studyType": "BSc.",
+      "startDate": "Sept 2010",
+      "endDate": "Dec 2013"
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Data Analytics",
+      "keywords": [
+        "Used Bokeh/seaborn with Jupyter notebooks to create analytical stories for providing insights.",
+        "Avid follower of the principles of reproducible research.",
+        "Presented deep analysis using scikit-learn to find hidden relations."
+      ]
+    },
+
+    {
+      "name": "Statistics",
+      "keywords": [
+        "Educated others on theory and application of hypothesis tests for different A/B testing scenarios.",
+        "Conducted multiple-correlation analysis and regressions using R and Python.",
+        "Simulated A/A tests results to compare Permutation tests, T-test, Mann-Whitney-Wilcoxon Test for performance with  non-normal and normally distributed data."
+      ]
+    },
+
+    {
+      "name": "Engineering",
+      "keywords": [
+        "Experience using a combination of Amazon Web Services to perform ETL and data warehousing tasks: Kafka Connect, EC2, S3, Lambda, Kinesis, Redshift.",
+        "Wrote scripts to automate manual tasks; used Shell scripts, Python scripts, and other third-party libraries.",
+        "Capable of setting up infrastructure as code using Docker, Terraform, and Ansible for development and production use cases."
+      ]
+    }
+  ],
+
+  "publications": [
+    {
+      "name": "Numerical computation of sharp travelling waves of a degenerate diffusion–reaction equation arising in biofilm modelling",
+      "publisher": "Communications in Nonlinear Science and Numerical Simulation",
+      "releaseDate": "July 2014",
+      "website": "https://www.sciencedirect.com/science/article/pii/S1007570413005248",
+      "summary": "A numerical method is evaluated for travelling waves of degenerate diffusion–reaction equations with gradient blow-up at the wave front."
+    },
+    {
+      "name": "A spatially explicit model of inverse colony formation of cellulolytic biofilms",
+      "publisher": "Biochemical Engineering Journal",
+      "releaseDate": "Jun 2017",
+      "website": "https://www.sciencedirect.com/science/article/pii/S1369703X17300669",
+      "summary": "A spatially explicit mathematical model for a specific biofilm formation is proposed and simulated results are analysed."
+    }
+  ]
+}
