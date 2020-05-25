@@ -49,6 +49,11 @@ class Resume:
             return False
 
     def validate(self):
+        """Validates that the needed fields exist in the master resume_json file ONLY.
+
+        This doesn't actually do any check that the dataclass in model.py exists.
+        Thus we need to make sure that models match this needed_fields list.
+        """
         NEEDED_FIELDS = [
             "basics.name",
             "basics.label",

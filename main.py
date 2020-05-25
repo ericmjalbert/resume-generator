@@ -1,11 +1,10 @@
 from app.resume import Resume
+from config import OUTPUT_YAML, RESUME_FILE
+from resume_generator.pdf.json_to_yaml import convert_to_yaml
 
 
 def main():
-    eric = Resume()
-    print(eric.basics.name)
-    print(eric.basics.location)
-    print([job.company for job in eric.work])
+    convert_to_yaml(resume_file=RESUME_FILE, output_yaml=OUTPUT_YAML)
 
 
 if __name__ == "__main__":

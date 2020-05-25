@@ -31,6 +31,7 @@ class Basics:
     label: str
     email: str
     phone: str
+    website: str
     summary: str
     location: Location
     profiles: List[Profile]
@@ -58,7 +59,8 @@ class Education:
     studyType: str
     startDate: str
     endDate: str
-    highlights: List[str] = None
+    thesis: str = None
+    publications: str = None
 
 
 @dataclass

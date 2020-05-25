@@ -5,7 +5,7 @@
     "email": "ericmjalbert@gmail.com",
     "phone": "226-203-0711",
     "website": "ericmjalbert.com",
-    "summary": "Standing at the intersection of data engineering, analytics, and statistics, I use my skills to resolve problems with a solution that is tailored for each situation. I am adept at getting a minimal product shipped or optimizing to perfection.",
+    "summary": "Standing at the intersection of data engineering and analytics, I use my skills to resolve problems with a solution that is tailored for each situation. I am adept at getting a minimal product shipped or optimizing to perfection.",
     "location": {
       "city": "Markham",
       "countryCode": "Canada",
@@ -118,10 +118,8 @@
       "studyType": "MSc.",
       "startDate": "Jan 2014",
       "endDate": "Jan 2016",
-      "highlights": [
-        "View Thesis here: http://atrium.lib.uoguelph.ca/xmlui/handle/10214/9448",
-        "View Published work: https://www.mendeley.com/authors/55932631800/"
-      ]
+      "thesis": "http://atrium.lib.uoguelph.ca/xmlui/handle/10214/9448",
+      "publications": "https://www.mendeley.com/authors/55932631800/"
     },
     {
       "institution": "University of Guelph",
@@ -138,23 +136,17 @@
       "keywords": [
         "Used Bokeh/seaborn with Jupyter notebooks to create analytical stories for providing insights.",
         "Avid follower of the principles of reproducible research.",
-        "Presented deep analysis using scikit-learn to find hidden relations."
-      ]
-    },
-
-    {
-      "name": "Statistics",
-      "keywords": [
         "Educated others on theory and application of hypothesis tests for different A/B testing scenarios.",
         "Conducted multiple-correlation analysis and regressions using R and Python.",
-        "Simulated A/A tests results to compare Permutation tests, T-test, Mann-Whitney-Wilcoxon Test for performance with  non-normal and normally distributed data."
+        "Simulated A/A tests results to compare Permutation tests, T-test, Mann-Whitney-Wilcoxon Test for performance with  non-normal and normally distributed data.",
+        "Presented deep analysis using scikit-learn to find hidden relations."
       ]
     },
 
     {
       "name": "Engineering",
       "keywords": [
-        "Experience using a combination of Amazon Web Services to perform ETL and data warehousing tasks: Kafka Connect, EC2, S3, Lambda, Kinesis, Redshift.",
+        "Experience using a comprehensive techstack to perform ETL and data warehousing tasks like Kafka Connect, EC2, S3, Lambda, Kinesis, Redshift.",
         "Wrote scripts to automate manual tasks; used Shell scripts, Python scripts, and other third-party libraries.",
         "Capable of setting up infrastructure as code using Docker, Terraform, and Ansible for development and production use cases."
       ]

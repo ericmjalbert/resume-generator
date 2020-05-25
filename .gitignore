@@ -1,4 +1,6 @@
 ericmjalbert-resume-2
 
+.DS_Store
+
 venv**
 __pycache__/

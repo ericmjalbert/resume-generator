@@ -5,22 +5,44 @@
 #    pip-compile
 #
 attrs==19.3.0             # via pytest
-colander==1.4.0           # via jsonresume-validator
+cachetools==4.1.0         # via google-auth
+certifi==2020.4.5.1       # via requests
+chardet==3.0.4            # via requests
 dacite==1.4.0             # via -r requirements.in
+docxtpl==0.9.2            # via -r requirements.in
+google-api-core==1.17.0   # via google-api-python-client
+google-api-python-client==1.8.2  # via -r requirements.in
+google-auth-httplib2==0.0.3  # via -r requirements.in, google-api-python-client
+google-auth-oauthlib==0.4.1  # via -r requirements.in
+google-auth==1.14.1       # via google-api-core, google-api-python-client, google-auth-httplib2, google-auth-oauthlib
+googleapis-common-protos==1.51.0  # via google-api-core
+httplib2==0.17.3          # via google-api-python-client, google-auth-httplib2
+idna==2.9                 # via requests
 importlib-metadata==1.6.0  # via pluggy, pytest
-iso8601==0.1.12           # via colander
-jsonresume-validator==0.1.5  # via -r requirements.in
-lxml==4.5.0               # via python-docx
+jinja2==2.11.2            # via docxtpl
+lxml==4.5.0               # via docxtpl, python-docx
+markupsafe==1.1.1         # via jinja2
 more-itertools==8.2.0     # via pytest
+oauthlib==3.1.0           # via requests-oauthlib
 packaging==20.3           # via pytest
 pluggy==0.13.1            # via pytest
+protobuf==3.11.3          # via google-api-core, googleapis-common-protos
 py==1.8.1                 # via pytest
-pycountry==17.9.23        # via jsonresume-validator
+pyasn1-modules==0.2.8     # via google-auth
+pyasn1==0.4.8             # via pyasn1-modules, rsa
 pyparsing==2.4.7          # via packaging
 pytest==5.4.1             # via -r requirements.in
-python-docx==0.8.10       # via -r requirements.in
-six==1.14.0               # via packaging
+python-docx==0.8.10       # via docxtpl
+pytz==2020.1              # via google-api-core
+requests-oauthlib==1.3.0  # via google-auth-oauthlib
+requests==2.23.0          # via google-api-core, requests-oauthlib
+rsa==4.0                  # via google-auth
+six==1.14.0               # via docxtpl, google-api-core, google-api-python-client, google-auth, packaging, protobuf
 tinydb==3.15.2            # via -r requirements.in
-translationstring==1.3    # via colander
+uritemplate==3.0.1        # via google-api-python-client
+urllib3==1.25.9           # via requests
 wcwidth==0.1.9            # via pytest
 zipp==3.1.0               # via importlib-metadata
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools

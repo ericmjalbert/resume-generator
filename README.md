@@ -1,20 +1,23 @@
 # ericmjalbert-resume
 
-Repo with master resume.json and related scripts
+Repo with master resume.json and related scripts. I use [Best Resume Ever](https://github.com/salomonelli/best-resume-ever) with a [custom template](./resume_generator/pdf/templates/eric-jalbert.vue) to generate the PDF resume.
 
 ## Installation
 
-Create a Python `venv` that is version `>=3.7` (since we use dataclass)
+Ensure you have a system python version that is `>=3.7` (since we use dataclass)
 ```bash
-virtualenv venv3 --python python3.7
+make init
 ```
 
-Install all packaged:
+The above make command will create the venv and initialize it with the needed packages.
+Once it's finished running you're ready to work!
+
+### PDF export
+For the PDF exports to work you need to have [Best Resume Ever](https://github.com/salomonelli/best-resume-ever) installed and working. Before running `make pdf` just make sure you have `BEST_RESUME_EVER_ABS_PATH=/path/to/best-resume-ever`, for example:
 ```bash
-venv/bin/pip install -r requirements.txt
+BEST_RESUME_EVER_ABS_PATH="/Users/ericjalbert/Documents/eric_stuff/best-resume-ever" make pdf
 ```
 
-Now you're ready to work!
 
 ## Usage
 
@@ -28,7 +31,7 @@ venv/bin/python main.py
 
 We use pytest to manage all the tests for this project. They can be run by:
 ```bash
-venv/bin/python -m pytest tests
+make tests
 ```
 
 ### Adding new packages
@@ -50,3 +53,8 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+### TODO
+[ ] Make a public fork of the best-resume-ever repo with my eric-jalbert template in it.

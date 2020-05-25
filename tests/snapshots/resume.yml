@@ -1,0 +1,33 @@
+/* #*/ export const PERSON = `
+name: Fake Fakerson
+about: Does mock things.
+position: Person
+contact:
+  email: fake@fakerson.com
+  city: City, Region, Country
+  website: fakerson.fake.com
+  linkedin: fake.fakerson
+  
+lang: en
+
+experience:
+- company: The Company Inc.
+  position: Professional Position
+  timeperiod: Jan 2016 - Jan 2020
+  description:
+    - Did things.
+
+
+education:
+- degree: MSc. Applied Mathematics
+  institution: University of Institution
+  timeperiod: Jan 2014 - Jan 2016
+  thesis: https://www.thesis.com
+  publications: https://www.publications.com
+
+
+skills:
+- name: Engineering
+  highlights:
+    - Capable of setting up things
+`

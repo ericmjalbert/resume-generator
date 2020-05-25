@@ -1,0 +1,58 @@
+{
+  "basics": {
+    "name": "Fake Fakerson",
+    "label": "Person",
+    "email": "fake@fakerson.com",
+    "phone": "phone_number_here",
+    "website": "fakerson.fake.com",
+    "summary": "Does mock things.",
+    "location": {
+      "city": "City",
+      "countryCode": "Country",
+      "region": "Region"
+    },
+
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "fake.fakerson",
+        "url": "linkedin.com/in/fake.fakerson"
+      }
+    ]
+  },
+
+  "work": [
+    {
+      "company": "The Company Inc.",
+      "position": "Professional Position",
+      "website": "https://thecompany.com",
+      "startDate": "Jan 2016",
+      "endDate": "Jan 2020",
+      "summary": ".",
+      "highlights": [
+        "Did things."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "University of Institution",
+      "area": "Applied Mathematics",
+      "studyType": "MSc.",
+      "startDate": "Jan 2014",
+      "endDate": "Jan 2016",
+      "thesis": "https://www.thesis.com",
+      "publications": "https://www.publications.com"
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Engineering",
+      "keywords": [
+        "Capable of setting up things"
+      ]
+    }
+  ]
+}
