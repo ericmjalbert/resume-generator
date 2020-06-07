@@ -15,7 +15,11 @@ experience:
   position: Professional Position
   timeperiod: Jan 2016 - Jan 2020
   description:
-    - Did things.
+    - Did things 1.
+    - Did things 2.
+    - Did things 3.
+    - Did things 4.
+    - Did things 5.
 
 
 education:
@@ -30,4 +34,7 @@ skills:
 - name: Engineering
   highlights:
     - Capable of setting up things
+    - and things 2
+    - and things 3
+    - and things 4
 `

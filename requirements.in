@@ -1,8 +1,14 @@
 # requirements.in
-docxtpl
-tinydb
-dacite
 pytest
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
+jinja2
+
+# Used for dataclass init from JSON data
+dacite
+
+# Used for webscrapping job descriptions
+beautifulsoup4
+
+# Used for sentence similarities
+tensorflow_hub>=0.6.0
+tensorflow>=2.0.0
+sklearn

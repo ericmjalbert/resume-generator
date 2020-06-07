@@ -1,4 +1,4 @@
-from app.resume import Resume
+from resume_generator.general.resume import Resume
 
 from jinja2 import Template
 
@@ -47,7 +47,7 @@ skills:
     - {{ highlight }}
     {%- endfor %}
 {% endfor -%}
-`"""
+`\n"""
 
 
 def convert_to_yaml(resume_file, output_yaml):

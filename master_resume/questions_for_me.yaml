@@ -1,0 +1,45 @@
+- question: "Tell me about yourself"
+  answer: |
+        * describe your current career in the past year
+        * Make sure to stress the points that satisfy what the company is looking for
+        * Self-taught Data Engineer, I've done full analytics and data science with theScore. I'm interested to get into more machine learning modeling work after doing some personal projects which is leading me to search for a different jobs.
+
+- question: "What are your greatest strengths?"
+  answer: |
+        1. Quick Learner, I make a strong effort to admit when I don't know something and put my full effort to learning it when needed. Over the years this has caused me to develop good 'knowledge transfer' skills
+        2. Empathetic, I try to put myself in the shoes of my peers or other teams I'm working with so that I can better understand where they are coming from. This tends to help allow everyone to work together and gets things done faster.
+
+- question: "What are your greatest weaknesses?"
+  answer: |
+      * Mention a strength that is disguised as a weakness: \"I depend on my quick ability to learn things as a crutch to just routinely reviewing things and remembering what I know. Overtime I get out of practice and tend to not be as conversational as I should be if I regularly reviewed"
+
+- question: "Tell me about something you did - or failed to do - that you now feel a little ashamed of."
+  answer: |
+    * You know, I really can't think of anything."  (Pause again, then add): 
+    * I would add that as a general management principle, I've found that the best way to avoid regrets is to avoid causing them in the first place.  I practice one habit that helps me a great deal in this regard.  At the end of each day, I mentally review the day's events and conversations to take a second look at the people and developments I'm involved with and do a doublecheck of what they're likely to be feeling.  Sometimes I'll see things that do need more follow-up, whether a pat on the back, or maybe a five minute chat in someone's office to make sure we're clear on things whatever.
+
+- question: "Why are you leaving (or did you leave) this position?"
+  answer: |
+    * I left theScore for more opportunity to grow. My final promotion to Sr. Data Analyst had me back to the same job I was doing as a Jr.; I had discussed with my boss the opportunity to be a Team Lead, but the executives had already reached out for a personal friend of theirs (Cody), and so there wasn't much growth left for me there. 
+    * Leaving Rubylife because of a company restructuring that is making the next year very slow. I'm deciding to take this chance to look around for opportunity that better match what I'm looking for.
+
+- question: "Why should I hire you?"
+  answer: |
+      * Talk about my relavent experience in the field and how I can futher grow and use those skills to help the company
+      * Also, if relavent, mention how I can bring a different point-of-view given my lack of relavent experience
+
+- question: "Where do you see yourself five years from now?"
+  answer: |
+    * "I am definitely interested in making a long-term commitment to my next position.  Judging by what you've told me about this position, it's exactly what I'm looking for and what I am very well qualified to do.  In terms of my future career path, I'm confident that if I do my work with excellence, opportunities will inevitable open up for me.  It's always been that way in my career, and I'm confident I'll have similar opportunities here."
+
+- question: "Why do you want to work at our company?"
+  answer: |
+    * This question is your opportunity to hit the ball out of the park, thanks to the in-depth research you should do before any interview.
+    * Best sources for researching your target company:  annual reports, the corporate newsletter, contacts you know at the company or its suppliers, advertisements, articles about the company in the trade press.
+
+- question: "Would you lie for the company?"
+  answer: |
+    * "I would never do anything to hurt the company.."
+    * If aggressively pressed to choose between two competing values, always choose personal integrity.  It is the most prized of all values.
+
+- 

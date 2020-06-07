@@ -2,7 +2,7 @@ import io
 import json
 import pytest
 
-from app.resume import Resume
+from resume_generator.general.resume import Resume
 
 
 def test_resume_file_is_valid():

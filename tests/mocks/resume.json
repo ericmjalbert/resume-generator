@@ -30,7 +30,11 @@
       "endDate": "Jan 2020",
       "summary": ".",
       "highlights": [
-        "Did things."
+        "Did things 1.",
+        "Did things 2.",
+        "Did things 3.",
+        "Did things 4.",
+        "Did things 5."
       ]
     }
   ],
@@ -51,7 +55,10 @@
     {
       "name": "Engineering",
       "keywords": [
-        "Capable of setting up things"
+        "Capable of setting up things",
+        "and things 2",
+        "and things 3",
+        "and things 4"
       ]
     }
   ]
