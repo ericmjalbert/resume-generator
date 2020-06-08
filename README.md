@@ -53,7 +53,7 @@ make tests_full
 
 ### Adding new packages
 
-We use (pip-tools)[https://github.com/jazzband/pip-tools] to manage packages. This means that to add a new package it needs to be added to `requirements.in` and then we need to compile a new `requirements.txt`. All of this is wrapped up in the `make init` function so that has be to run after each addition to `requirements.in`
+We use [pip-tools](https://github.com/jazzband/pip-tools) to manage packages. This means that to add a new package it needs to be added to `requirements.in` and then we need to compile a new `requirements.txt`. All of this is wrapped up in the `make init` function so that has be to run after each addition to `requirements.in`
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
