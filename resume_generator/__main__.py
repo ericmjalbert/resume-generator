@@ -33,7 +33,9 @@ if args.command == JOB_PARSE:
     job.record()
 
 if args.command == BUILD_RESUME_JSON:
+    print(f"Creating Application instance for {args.application_name}")
     app = Application(application_name=args.application_name, rebuild=args.rebuild)
+    print(f"Recording custom application resume_json")
     app.record()
 
 if args.command == BUILD_RESUME_YAML:

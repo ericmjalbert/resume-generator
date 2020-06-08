@@ -64,7 +64,9 @@ class Application:
                 top_picks = work_highlights.get_top_n_scores_in_section(work.id, n=2)
             else:
                 top_picks = work_highlights.get_top_n_scores_in_section(work.id, n=1)
-            print(f"Finished getting {len(top_picks)} top_picks for {work.company}")
+            print(
+                f"Finished getting top {len(top_picks)} highlights for {work.company}"
+            )
             new_work_resume[i]["highlights"] = top_picks
 
         return new_work_resume
