@@ -1,0 +1,12 @@
+[
+    "You have experience in SQL: You\u2019ve used written complex SQL queries that join across data from multiple systems, matching them up even when there was not a straightforward way to join the tables. You've designed tables with an eye towards ease of use and high performance. You've documented schemas and created data dictionaries.",
+    "You are a skilled written communicator. Zapier is a 100% remote team and writing is our primary means of communication.",
+    "You appreciate our team\u2019s values of eagerness to collaborate with teammates from any function of the organization or with any level of data knowledge, iterating over your deliverables, and being curious.",
+    "You understand that the perfect is the enemy of the good and default to action by shipping MVP code and iterating as needed to get towards better solutions.",
+    "You have experience with APIs: You've ingested large quantities of data from RESTful APIs.",
+    "You have experience and a comfort level with programming. You can read and write code in Python, Go, Rust, Java, or C#. You're familiar with distributed source control using Git.",
+    "You have experience running infrastructure needed to orchestrate data pipelines, store data with different retention and performance requirements, and perform compute for multiple loads. Experience with tools like Ansible, Terraform, and/or Vagrant is a plus.",
+    "You understand columnar-store file formats like Orc or Parquet and are also familiar with Avro and Avro schemas.",
+    "Develop ETL to ingest and transform data from upstream databases and APIs into a data warehouse. The tools used include AWS Redshift, NiFi, Kafka, Matillion ETL, and custom Python.",
+    "Build, deploy, and continuously improve the infrastructure used by our data scientists and data and business analysts. The tools we have been using here include Docker, Terraform, Ansible, Kubernetes, and AWS EC2."
+]

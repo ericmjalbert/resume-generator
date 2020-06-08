@@ -5,6 +5,7 @@ Repo with master resume.json and related scripts. I use [Best Resume Ever](https
 The real goody to this project is that it uses a [pre-trained Tensorhub model](https://tfhub.dev/google/universal-sentence-encoder/4) to modify my resume based on the bullet points of a job description.
 
 Here is an example of the whole script in action:
+
 ![make application example](/assets/example_application.gif)
 
 ## Installation

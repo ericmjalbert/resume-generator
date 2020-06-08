@@ -1,0 +1,10 @@
+[
+    "You have previously worked on building serious data pipelines ingesting and transforming > 10 ^6 events per minute and terabytes of data per day.",
+    "You are passionate about producing clean, maintainable and testable code part of real-time data pipeline.",
+    "You understand how microservices work and are familiar with concepts of data modelling.",
+    "You can connect different services and processes together even if you have not worked with them before and follow the flow of data through various pipelines to debug data issues.",
+    "You have worked with Spark and Kafka before and have experimented or heard about Flink/Druid/Ignite/Presto/Athena and understand when to use one over the other.",
+    "On a bad day maintaining zookeeper and bringing up cluster doesn’t bother you.",
+    "You may not be a networking expert but you understand issues with ingesting data from applications in multiple data centres across geographies, on-premise and cloud and will find a way to solve them.",
+    "A collaborative, open work environment that fosters ownership, creativity, and urgency"
+]

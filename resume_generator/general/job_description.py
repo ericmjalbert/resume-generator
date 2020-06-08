@@ -1,6 +1,7 @@
 import argparse
 import json
 import pathlib
+import re
 import requests
 
 from bs4 import BeautifulSoup
@@ -52,9 +53,45 @@ class JobDescription:
         bullet_points = [
             li.text
             for li in self.site_content.find_all("li")
-            if len(li.text.split()) > 4 and "\n" not in li.text
+            if self.is_valid_job_requirement(li) and not self.is_company_benefits(li)
         ]
+
         return bullet_points
+
+    @staticmethod
+    def is_company_benefits(li):
+        """If any of the special words are in the text than flag it as a benefit."""
+        company_benefit_word_list = [
+            "we offer",
+            "salary",
+            "retirement",
+            "vacation",
+            "weeks",
+            "laptop",
+            "benefits",
+            "healthcare",
+            "company retreat",
+            "annual",
+            "groceries",
+            "great place to work",
+            "coffee",
+            "catered",
+            "ping pong",
+        ]
+        if any(word in li.text.lower() for word in company_benefit_word_list):
+            return True
+        return False
+
+    @staticmethod
+    def is_valid_job_requirement(li):
+        """Removes li points that are nonsense or not job requirements."""
+        if (
+            len(li.text.split()) > 4
+            and "\n" not in li.text
+            and not li.findChildren("a")
+        ):
+            return True
+        return False
 
     def get_site_content_filename(self):
         return f"{self.folder}/site_content.html"
