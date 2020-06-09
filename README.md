@@ -1,4 +1,4 @@
-# ericmjalbert-resume
+# Resume Generator
 
 Repo with master resume.json and related scripts. I use [Best Resume Ever](https://github.com/salomonelli/best-resume-ever) with a [custom template](https://github.com/ericmjalbert/best-resume-ever/blob/master/src/resumes/eric-jalbert.vue) to generate the PDF resume.
 
@@ -19,7 +19,7 @@ cd ../
 git clone https://github.com/ericmjalbert/best-resume-ever
 cd best_resume_ever
 npm install
-cd ../ericmjalbert-resume
+cd ../resume-generator
 sed -ie "s#/Users/ericjalbert/Documents/eric_stuff/best-resume-ever#$(pwd)/../best-resume-ever#g" config.py
 ```
 
