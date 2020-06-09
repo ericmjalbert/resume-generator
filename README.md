@@ -1,12 +1,14 @@
 # ericmjalbert-resume
 
-Repo with master resume.json and related scripts. I use [Best Resume Ever](https://github.com/salomonelli/best-resume-ever) with a [custom template](./resume_generator/pdf/templates/eric-jalbert.vue) to generate the PDF resume.
+Repo with master resume.json and related scripts. I use [Best Resume Ever](https://github.com/salomonelli/best-resume-ever) with a [custom template](https://github.com/ericmjalbert/best-resume-ever/blob/master/src/resumes/eric-jalbert.vue) to generate the PDF resume.
 
 The real goody to this project is that it uses a [pre-trained Tensorhub model](https://tfhub.dev/google/universal-sentence-encoder/4) to modify my resume based on the bullet points of a job description.
 
 Here is an example of the whole script in action:
 
 ![make application example](/assets/example_application.gif)
+
+# Usage
 
 ## Installation
 
@@ -39,7 +41,7 @@ make help
 *NOTE*: Resume data is stored in `master_resume/resume.json`. Be sure to change this to your own resume before real usage.
 
 
-### Running tests
+## Running tests
 
 We use pytest to manage all the tests for this project. They can be run by:
 ```bash
@@ -51,14 +53,14 @@ or, for the slower end-to-end test (~2 mins):
 make tests_full
 ```
 
-### Adding new packages
+## Adding new packages
 
 We use [pip-tools](https://github.com/jazzband/pip-tools) to manage packages. This means that to add a new package it needs to be added to `requirements.in` and then we need to compile a new `requirements.txt`. All of this is wrapped up in the `make init` function so that has be to run after each addition to `requirements.in`
 
-## Contributing
+# Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+# License
 [MIT](https://choosealicense.com/licenses/mit/)
