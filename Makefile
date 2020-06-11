@@ -49,9 +49,9 @@ init_encoder:
 
 
 application:
-	@echo "\n$(date)" >> job_applications/${name}/application.log
 	@echo "\n[make] Creating Job Application for ${name}"
 	mkdir -p job_applications/${name}/
+	@echo "\n$(date)" >> job_applications/${name}/application.log
 	@echo "mkdir -p job_applications/${name}/" >> job_applications/${name}/application.log
 	@echo "\n[make] Get job bullets and raw HTML from ${url}"
 	venv/bin/python -m resume_generator get_job_bullets --application_name ${name} --url ${url} 
