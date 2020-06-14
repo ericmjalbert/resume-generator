@@ -42,6 +42,7 @@ requests==2.23.0          # via requests-oauthlib, tensorboard
 rsa==4.0                  # via google-auth
 scikit-learn==0.23.1      # via sklearn
 scipy==1.4.1              # via scikit-learn, tensorflow
+selenium==3.141.0         # via -r requirements.in
 six==1.14.0               # via absl-py, astunparse, google-auth, google-pasta, grpcio, h5py, keras-preprocessing, packaging, protobuf, tensorboard, tensorflow, tensorflow-hub
 sklearn==0.0              # via -r requirements.in
 soupsieve==2.0.1          # via beautifulsoup4
@@ -52,7 +53,7 @@ tensorflow-hub==0.8.0     # via -r requirements.in
 tensorflow==2.2.0         # via -r requirements.in
 termcolor==1.1.0          # via tensorflow
 threadpoolctl==2.0.0      # via scikit-learn
-urllib3==1.25.9           # via requests
+urllib3==1.25.9           # via requests, selenium
 wcwidth==0.1.9            # via pytest
 werkzeug==1.0.1           # via tensorboard
 wheel==0.34.2             # via astunparse, tensorboard, tensorflow

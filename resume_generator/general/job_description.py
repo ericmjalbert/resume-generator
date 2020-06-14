@@ -1,20 +1,15 @@
 import argparse
 import json
 import pathlib
-import re
-import requests
+import time
 
+from selenium import webdriver
 from bs4 import BeautifulSoup
 
 from config import JOB_APP_FOLDER_TEMPLATE
 
 
 class JobDescription:
-    USER_AGENT = (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
-    )
-
     def __init__(self, application_name, url=None, html_file=None):
         """Runs through the scraping of the given job description site.
 
@@ -39,9 +34,13 @@ class JobDescription:
         return site_content
 
     def get_url_content(self):
-        """Make HTTP request to grab site content."""
-        r = requests.get(self.url, headers={"user-agent": self.USER_AGENT})
-        return BeautifulSoup(r.text, "html.parser")
+        """Use Selenium to open website with Javascript support and grab HTML."""
+        driver = webdriver.Chrome()
+        driver.get(self.url)
+        time.sleep(5)
+        site_content = BeautifulSoup(driver.page_source, "html.parser")
+        driver.close()
+        return site_content
 
     def get_html_file_content(self):
         """Load local HTML file to grab site content."""
